@@ -1,0 +1,43 @@
+{
+  "name": "my_starter_project",
+  "version": "1.0.0",
+  "description": "Sample project to learn nodejs implementation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": "rejiyafersana@gmail.com",
+  "license": "Private",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.14.0",
+    "express-session": "^1.12.1",
+    "fs": "0.0.2",
+    "lodash": "^4.11.1",
+    "method-override": "^2.3.5",
+    "mysql": "^2.9.0",
+    "request": "^2.64.0",
+    "sequelize": "^3.23.3",
+    "sequelize-cli": "^2.4.0",
+    "sequelize-encrypted": "^0.1.0",
+    "underscore": "^1.8.3",
+    "unzip": "^0.1.11",
+    "utf8": "^2.1.1",
+    "waterline": "^0.11.11",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.1.2",
+    "xlsx": "^0.8.0",
+    "xml-crypto": "^0.8.4",
+    "xml2js": "^0.4.16",
+    "xoauth2": "^1.1.0"
+  }
+}
