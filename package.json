@@ -2,7 +2,7 @@
   "name": "my_starter_project",
   "version": "1.0.0",
   "description": "Sample project to learn nodejs implementation",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": ""

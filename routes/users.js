@@ -16,14 +16,30 @@ var util = require('util');
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= //
 // Users First Invest Page
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= //
-usersController.get('/demopage', function(req, res) {
-     res.render('layouts/starter.ejs');
-    var obj= {
-    	name:"raj",
-    	age:12
-    };
-    res.send(obj);
+usersController.get('/profile', function(req, res) {
+	 
+     return res.render('layouts/user/profile.ejs');
+    
 });
+
+
+usersController.get('/profiledata', function(req, res) {
+
+	console.log(req.body);
+	 
+    var profile_data = {
+    	name : 'Abdul Vajid',
+    	age: 27,
+    	gender: 'male',
+    	city : 'Bangalore',
+    	email : 'alvajindia@gmail.com'
+    };
+
+    return res.send(profile_data);
+    
+});
+
+
 
 
 module.exports = usersController;
