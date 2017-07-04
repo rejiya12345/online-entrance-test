@@ -1,0 +1,80 @@
+2017-07-03T04:51:49.064Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 10:21:49 GMT+0530 (IST), pid=5072, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=76029952, heapTotal=57020448, heapUsed=35516432, loadavg=[0.22607421875, 0.12939453125, 0.09765625], uptime=12506
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
+2017-07-03T04:52:22.595Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 10:22:22 GMT+0530 (IST), pid=5085, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=75968512, heapTotal=58052384, heapUsed=35420352, loadavg=[0.255859375, 0.1474609375, 0.103515625], uptime=12539
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
+2017-07-03T05:12:33.382Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 10:42:33 GMT+0530 (IST), pid=5193, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=76890112, heapTotal=57020448, heapUsed=35392976, loadavg=[0.02783203125, 0.0517578125, 0.07177734375], uptime=13750
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
+2017-07-03T05:12:50.320Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 10:42:50 GMT+0530 (IST), pid=5204, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=76976128, heapTotal=57020448, heapUsed=35386184, loadavg=[0.01904296875, 0.0478515625, 0.06982421875], uptime=13767
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
+2017-07-03T05:15:47.639Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 10:45:47 GMT+0530 (IST), pid=5281, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=76976128, heapTotal=57020448, heapUsed=35396736, loadavg=[0.35009765625, 0.203125, 0.12255859375], uptime=13944
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
+2017-07-03T05:24:38.162Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 10:54:38 GMT+0530 (IST), pid=5421, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=76861440, heapTotal=57020448, heapUsed=35385336, loadavg=[0.17138671875, 0.21875, 0.15478515625], uptime=14475
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
+2017-07-03T05:33:02.362Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 11:03:02 GMT+0530 (IST), pid=5620, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=75886592, heapTotal=57020448, heapUsed=35491768, loadavg=[0.17138671875, 0.21923828125, 0.181640625], uptime=14979
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
+2017-07-03T05:49:04.728Z - [31merror[39m: uncaughtException: admin is not defined date=Mon Jul 03 2017 11:19:04 GMT+0530 (IST), pid=5711, uid=1000, gid=1000, cwd=/home/rejiya/online-entrance, execPath=/usr/bin/nodejs, version=v5.11.0, argv=[/usr/bin/nodejs, /home/rejiya/online-entrance/server.js], rss=68374528, heapTotal=57020448, heapUsed=35501552, loadavg=[0.3271484375, 0.1630859375, 0.1533203125], uptime=15941
+ReferenceError: admin is not defined
+    at Object.<anonymous> (/home/rejiya/online-entrance/server.js:59:19)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:148:18)
+    at node.js:405:3
