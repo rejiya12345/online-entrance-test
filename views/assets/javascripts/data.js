@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 	console.log("data");
 
@@ -24,7 +23,6 @@ $(document).ready(function () {
 
 });
 
-       
 
 function doDataUpdate(){
 	var dataposturl = '/user/profileupdate';
@@ -35,12 +33,13 @@ function doDataUpdate(){
       	console.log("the real data is below");
       	console.log(data);
       	alert("I won");
-      var ed_name = ('#id_name').val();
-      var ed_age= ('#id_age').val();
-      var ed_gender= ('#id_gender').val();
-      var ed_city= ('#id_city').val();
-      var ed_email= ('#id_email').val();
-      },
+      
+       $('#id_name').val();
+       $('#id_age').val();
+       $('#id_gender').val();
+       $('#id_city').val();
+       $('#id_email').val();
+       },
       error: function(error) {
       	console.log("some error happened");
       	console.log(error);
@@ -51,4 +50,6 @@ function doDataUpdate(){
 
 $('#id_success').click(function(){
 	doDataUpdate( );
+});
+   
 });
