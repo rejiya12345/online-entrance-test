@@ -1,4 +1,4 @@
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= //
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= //
 // usersController
 // This will contain routes related to editing of user profiles
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= //
@@ -12,6 +12,10 @@ var _ = require('underscore');
 var request = require('request');
 var logger = require('../utils/logger');
 var util = require('util');
+var mysql= require('mysql');
+var Sequelize=require('sequelize');
+
+
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= //
 // Users First Invest Page
@@ -23,19 +27,21 @@ usersController.get('/profile', function(req, res) {
 });
 
 
-usersController.get('/profiledata', function(req, res) {
+usersController.post('/profiledata', function(req, res) {
 
-	console.log(req.body);
-	 
+    console.log(req.body);
+     
     var profile_data = {
-    	name : 'Abdul Vajid',
-    	age: 27,
-    	gender: 'male',
-    	city : 'Bangalore',
-    	email : 'alvajindia@gmail.com'
+        name : 'Abdul Vajid',
+        age: 27,
+        gender: 'male',
+        city : 'Bangalore',
+        email : 'alvajindia@gmail.com'
     };
+   
 
-    return res.send(profile_data);
+
+     res.send(req.body);
     
 });
 
