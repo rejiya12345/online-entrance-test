@@ -27,25 +27,24 @@ usersController.get('/profile', function(req, res) {
 });
 
 
-usersController.post('/profiledata', function(req, res) {
 
-    console.log(req.body);
-     
-    var profile_data = {
-        name : 'Abdul Vajid',
-        age: 27,
-        gender: 'male',
-        city : 'Bangalore',
-        email : 'alvajindia@gmail.com'
-    };
-   
+  usersController.post('/create', function(req, res) {
+  models.login.create({
+     console.log(req.body);
 
+    name:req.body.name,
+    age:req.body.age,
+    gender:req.body.gender,
+    city:req.body.city,
+    email:req.body.email
 
-     res.send(req.body);
-    
+  }).then(function() {
+    res.redirect(req.body);
+  });
 });
 
 
+     
 
 
 module.exports = usersController;
